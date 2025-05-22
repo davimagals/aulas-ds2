@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="jogo.css">
 </head>
 <body>
-    <div class="tela">
+    <div class="tela tela-inicial" style="display: none;">
         <img class="logo" src="logo.png" alt="" srcset="">
 
+        <br />
+
         <button class="iniciar">Iniciar</button>
+    </div>
+
+
+
+    <div class="tela tela-pergunta" style="display: block;">
+        <div class="balao">
+            <p class="pergunta">
+                Qual é o país com o maior número de fusos horários?
+            </p>
+        </div>
+
+        <button class="responder">China</button><br />
+        <button class="responder">Rússia</button><br />
+        <button class="responder">Estados Unidos</button><br />
+        <button class="responder">França</button>
     </div>
 
     <script src="logica.js"></script>
